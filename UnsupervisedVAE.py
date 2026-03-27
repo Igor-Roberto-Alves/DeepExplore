@@ -2,15 +2,10 @@ import torch
 from torch import nn, optim
 from torchvision import datasets, transforms
 import matplotlib.pyplot as plt
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import random
+import numpy as np
 
-
-class UnsupVAE:
-    def __init__(self, latent_dim=16):
-        super().__init__()
-
-        self.encoder = nn.sequential(
-            nn.conv2d(
-                1,
-                32,
-            )
-        )
+class Unsup
